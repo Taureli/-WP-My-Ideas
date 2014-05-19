@@ -74,3 +74,5 @@ D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\vi-VN\Microsoft.Phone.C
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.csprojResolveAssemblyReference.cache
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\NewCat.g.cs
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\DelCat.g.cs

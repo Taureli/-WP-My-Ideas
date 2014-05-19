@@ -53,8 +53,21 @@ namespace myIdeas
                 using (IdeasContext ctx = new IdeasContext(IdeasContext.ConnectionString))
                 {
                     ctx.CreateIfNotExists();
+
+                    var category = new Categories() { Name = NewCatName.Text };
+
+                    ctx.Categories.InsertOnSubmit(category);
+                    ctx.SubmitChanges();
+
+                    NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+
                 }
             }
+        }
+
+        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            NewCatName.Focus();
         }
     }
 }

@@ -1,5 +1,5 @@
-﻿<xapCache source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014-05-19 15:53:18">
-  <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.dll" archivePath="myIdeas.dll" lastWriteTime="2014-05-19 15:53:17" />
+﻿<xapCache source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014-05-19 19:16:46">
+  <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.dll" archivePath="myIdeas.dll" lastWriteTime="2014-05-19 19:16:45" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014-05-18 14:53:14" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Assets\AppBar\add.png" archivePath="Assets\AppBar\add.png" lastWriteTime="2013-01-01 18:57:00" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Assets\AppBar\folder.png" archivePath="Assets\AppBar\folder.png" lastWriteTime="2013-01-01 18:57:00" />
@@ -17,7 +17,7 @@
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Toolkit.Content\ApplicationBar.Save.png" archivePath="Toolkit.Content\ApplicationBar.Save.png" lastWriteTime="2014-05-19 15:52:06" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="2014-05-19 15:51:40" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014-05-19 15:53:17" />
-  <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Ideas.sdf" archivePath="Ideas.sdf" lastWriteTime="2014-05-19 15:39:51" />
+  <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Ideas.sdf" archivePath="Ideas.sdf" lastWriteTime="2014-05-19 18:44:26" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014-05-18 14:53:14" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2014-05-18 14:53:14" />
   <file source="D:\visual studio 2013\Projects\myIdeas\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="2014-05-19 15:51:40" />

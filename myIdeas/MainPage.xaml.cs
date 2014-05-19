@@ -31,6 +31,7 @@ namespace myIdeas
 
                 CategoriesList.ItemsSource = ctx.Categories.OrderBy(d => d.Name).ToList();
             }
+
         }
 
         private void Category_Click(object sender, RoutedEventArgs e)
@@ -43,9 +44,9 @@ namespace myIdeas
 
         }
 
-        private void ApplicationBarIconButton_Click_1(object sender, EventArgs e)
+        private void AddCategoryButton(object sender, EventArgs e)
         {
-
+            NavigationService.Navigate(new Uri("/NewCat.xaml", UriKind.Relative));
         }
 
         private void ApplicationBarMenuItem_Click(object sender, EventArgs e)
@@ -60,7 +61,7 @@ namespace myIdeas
 
         private void RemoveCategory_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Uri("/DelCat.xaml", UriKind.Relative));
         }
 
     }

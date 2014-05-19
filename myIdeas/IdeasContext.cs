@@ -202,6 +202,8 @@ public class DebugWriter : TextWriter
 		
 		private string _Name;
 		
+		private int _Isdefault;
+		
 		private EntitySet<Ideas> _Ideas;
 		
     #region Extensibility Method Definitions
@@ -212,6 +214,8 @@ public class DebugWriter : TextWriter
     partial void OnIdChanged();
     partial void OnNameChanging(string value);
     partial void OnNameChanged();
+    partial void OnIsdefaultChanging(int value);
+    partial void OnIsdefaultChanged();
     #endregion
 		
 		public Categories()
@@ -256,6 +260,26 @@ public class DebugWriter : TextWriter
 					this._Name = value;
 					this.SendPropertyChanged("Name");
 					this.OnNameChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="isdefault", Storage="_Isdefault", DbType="Int NOT NULL")]
+		public int Isdefault
+		{
+			get
+			{
+				return this._Isdefault;
+			}
+			set
+			{
+				if ((this._Isdefault != value))
+				{
+					this.OnIsdefaultChanging(value);
+					this.SendPropertyChanging();
+					this._Isdefault = value;
+					this.SendPropertyChanged("Isdefault");
+					this.OnIsdefaultChanged();
 				}
 			}
 		}
