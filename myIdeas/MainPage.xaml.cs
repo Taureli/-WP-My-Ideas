@@ -38,5 +38,30 @@ namespace myIdeas
 
         }
 
+        private void ApplicationBarIconButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ApplicationBarIconButton_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ApplicationBarMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddIdea_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RemoveCategory_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
     }
 }
