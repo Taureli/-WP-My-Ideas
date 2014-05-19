@@ -39,11 +39,6 @@ namespace myIdeas
 
         }
 
-        private void ApplicationBarIconButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void AddCategoryButton(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/NewCat.xaml", UriKind.Relative));
@@ -54,14 +49,19 @@ namespace myIdeas
 
         }
 
-        private void AddIdea_Click(object sender, RoutedEventArgs e)
+        private void AddIdeaClick(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Uri("/NewIdea.xaml", UriKind.Relative));
         }
 
         private void RemoveCategory_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new Uri("/DelCat.xaml", UriKind.Relative));
+        }
+
+        private void ApplicationBarIconButton_Click(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/NewIdea.xaml", UriKind.Relative));
         }
 
     }

@@ -31,22 +31,22 @@
 
                 <!--ContentPanel - place additional content here-->
                 <Grid x:Name="ContentPanel" Margin="0,10,0,0">
-                    <Button x:Name="AddIdea"  Content="New idea!" Click="ApplicationBarIconButton_Click" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="125" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}" Margin="10,43,10,435"/>
-                    <Button x:Name="AddCategory" Content="Add category" Click="AddCategoryButton" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="100" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}" Margin="10,206,10,297"/>
-                    <Button x:Name="RemoveCategory" Content="Remove category" Click="RemoveCategory_Click" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="100" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}" Margin="10,286,10,217"/>
+                    <Button x:Name="AddIdea"  Content="New idea!" Click="AddIdeaClick" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="125" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}" Margin="10,23,10,455"/>
+                    <Button x:Name="AddCategory" Content="Add category" Click="AddCategoryButton" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="100" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}" Margin="10,186,10,317"/>
+                    <Button x:Name="RemoveCategory" Content="Remove category" Click="RemoveCategory_Click" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="100" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}" Margin="10,266,10,237"/>
                 </Grid>
 
             </phone:PivotItem>
 
             <phone:PivotItem x:Name="Categories" Header="Categories" Margin="12,0,12,20">
-                
-                    <phone:LongListSelector x:Name="CategoriesList" Height="560" Margin="10,10,10,0" VerticalAlignment="Top">
-                        <phone:LongListSelector.ItemTemplate>
-                            <DataTemplate>
-                                <Button x:Name="Category" Tag="{Binding Id}" Content="{Binding Name}" Click="Category_Click" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="200" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}"/>
-                            </DataTemplate>
-                        </phone:LongListSelector.ItemTemplate>
-                    </phone:LongListSelector>
+
+                <phone:LongListSelector x:Name="CategoriesList" Height="560" Margin="10,10,10,0" VerticalAlignment="Top">
+                    <phone:LongListSelector.ItemTemplate>
+                        <DataTemplate>
+                            <Button x:Name="Category" Tag="{Binding Id}" Content="{Binding Name}" Click="Category_Click" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="200" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}"/>
+                        </DataTemplate>
+                    </phone:LongListSelector.ItemTemplate>
+                </phone:LongListSelector>
 
             </phone:PivotItem>
 
@@ -62,5 +62,5 @@
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
-    
+
 </phone:PhoneApplicationPage>

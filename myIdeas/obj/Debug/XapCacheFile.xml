@@ -1,7 +1,8 @@
-﻿<xapCache source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014-05-19 19:16:46">
-  <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.dll" archivePath="myIdeas.dll" lastWriteTime="2014-05-19 19:16:45" />
+﻿<xapCache source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014-05-19 20:21:09">
+  <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.dll" archivePath="myIdeas.dll" lastWriteTime="2014-05-19 20:21:08" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014-05-18 14:53:14" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Assets\AppBar\add.png" archivePath="Assets\AppBar\add.png" lastWriteTime="2013-01-01 18:57:00" />
+  <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Assets\AppBar\check.png" archivePath="Assets\AppBar\check.png" lastWriteTime="2013-01-01 18:57:00" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Assets\AppBar\folder.png" archivePath="Assets\AppBar\folder.png" lastWriteTime="2013-01-01 18:57:00" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2014-05-18 14:53:14" />
   <file source="D:\visual studio 2013\Projects\myIdeas\myIdeas\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2014-05-18 14:53:14" />
