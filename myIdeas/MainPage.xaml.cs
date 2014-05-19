@@ -29,7 +29,7 @@ namespace myIdeas
 
                 ctx.LogDebug = true;
 
-                CategoriesList.ItemsSource = ctx.Categories.ToList();
+                CategoriesList.ItemsSource = ctx.Categories.OrderBy(d => d.Name).ToList();
             }
         }
 

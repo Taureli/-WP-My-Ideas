@@ -40,7 +40,7 @@
                         <phone:LongListSelector.ItemTemplate>
                             <DataTemplate>
                             <Grid VerticalAlignment="Stretch">
-                                <Button x:Name="Category" Tag="{Binding Id}" Content="{Binding Name}" Click="Category_Click" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="200" Height="200" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}"/>
+                                <Button x:Name="Category" Tag="{Binding Id}" Content="{Binding Name}" Click="Category_Click" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="200" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}"/>
                                 </Grid>
                             </DataTemplate>
                         </phone:LongListSelector.ItemTemplate>
