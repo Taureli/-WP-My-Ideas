@@ -83,7 +83,16 @@ namespace myIdeas
 
         private void CreateIdea()
         {
-            if (IdeaTitle.Text.Length > 0 && IdeaContent.Text.Length > 0)
+
+            if (IdeaTitle.Text.Length > 250)
+            {
+                MessageBox.Show("Idea title is too long!");
+            }
+            else if (IdeaContent.Text.Length > 3990)
+            {
+                MessageBox.Show("Sorry, idea content is too long!");
+            }
+            else if (IdeaTitle.Text.Length > 0 && IdeaContent.Text.Length > 0)
             {
                 using (IdeasContext ctx = new IdeasContext(IdeasContext.ConnectionString))
                 {

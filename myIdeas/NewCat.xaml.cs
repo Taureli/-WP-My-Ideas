@@ -58,7 +58,11 @@ namespace myIdeas
 
         private void CreateCategory()
         {
-            if (NewCatName.Text != "")
+            if (NewCatName.Text.Length > 250)
+            {
+                MessageBox.Show("Category name is too long!");
+            }
+            else if (NewCatName.Text != "")
             {
                 using (IdeasContext ctx = new IdeasContext(IdeasContext.ConnectionString))
                 {
