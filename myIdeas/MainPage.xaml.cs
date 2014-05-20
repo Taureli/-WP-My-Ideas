@@ -36,7 +36,10 @@ namespace myIdeas
 
         private void Category_Click(object sender, RoutedEventArgs e)
         {
+            Button _button = (Button)sender;
+            String selectedCat = _button.Tag.ToString();
 
+            NavigationService.Navigate(new Uri("/Category.xaml?SelectedCat=" + selectedCat, UriKind.Relative));
         }
 
         private void AddCategoryButton(object sender, EventArgs e)

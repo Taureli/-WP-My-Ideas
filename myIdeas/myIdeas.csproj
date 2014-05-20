@@ -93,8 +93,14 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Category.xaml.cs">
+      <DependentUpon>Category.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DelCat.xaml.cs">
       <DependentUpon>DelCat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Idea.xaml.cs">
+      <DependentUpon>Idea.xaml</DependentUpon>
     </Compile>
     <Compile Include="IdeasContext.cs" />
     <Compile Include="List.cs" />
@@ -117,6 +123,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
+    <Compile Include="var.cs" />
     <Compile Include="ViewModels\ItemViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
   </ItemGroup>
@@ -125,6 +132,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="Category.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DelCat.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -132,6 +143,10 @@
     <Page Include="DetailsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Idea.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
@@ -162,6 +177,7 @@
     <Content Include="Assets\AlignmentGrid.png" />
     <Content Include="Assets\AppBar\add.png" />
     <Content Include="Assets\AppBar\check.png" />
+    <Content Include="Assets\AppBar\delete.png" />
     <Content Include="Assets\AppBar\folder.png" />
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

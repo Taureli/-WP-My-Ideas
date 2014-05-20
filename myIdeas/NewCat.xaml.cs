@@ -43,10 +43,20 @@ namespace myIdeas
         private void NewCatName_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
         {
             if (e.Key == System.Windows.Input.Key.Enter)
-                NewCatButton.Focus();
+                CreateCategory();
         }
 
-        private void NewCatButton_Click(object sender, RoutedEventArgs e)
+        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            NewCatName.Focus();
+        }
+
+        private void ApplicationBarIconButton_Click(object sender, EventArgs e)
+        {
+            CreateCategory();
+        }
+
+        private void CreateCategory()
         {
             if (NewCatName.Text != "")
             {
@@ -63,11 +73,6 @@ namespace myIdeas
 
                 }
             }
-        }
-
-        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
-        {
-            NewCatName.Focus();
         }
     }
 }

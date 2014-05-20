@@ -1,5 +1,5 @@
 ﻿<phone:PhoneApplicationPage
-    x:Class="myIdeas.NewCat"
+    x:Class="myIdeas.Idea"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -11,7 +11,7 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded">
+    shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
@@ -23,19 +23,15 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="My Ideas" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="Add category" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="PageTitle" Text="{Binding}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBox x:Name="NewCatName" Height="76" TextWrapping="Wrap" Text="New category" Foreground="Gray" GotFocus="NewCatName_GotFocus" LostFocus="NewCatName_LostFocus" VerticalAlignment="Top" KeyDown="NewCatName_KeyDown"/>
+            <ScrollViewer>
+                <TextBlock x:Name="IdeaContent" FontSize="24" TextWrapping="Wrap" Text="{Binding}" VerticalAlignment="Top" Margin="25,10,25,0"/>
+            </ScrollViewer>
         </Grid>
     </Grid>
-
-    <phone:PhoneApplicationPage.ApplicationBar>
-        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton x:Name="AddButton" IconUri="/Assets/AppBar/check.png" Text="Add" Click="ApplicationBarIconButton_Click" />
-        </shell:ApplicationBar>
-    </phone:PhoneApplicationPage.ApplicationBar>
 
 </phone:PhoneApplicationPage>

@@ -77,3 +77,5 @@ D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.csprojResolveAs
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\NewCat.g.cs
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\DelCat.g.cs
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\NewIdea.g.cs
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\Category.g.cs
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\Idea.g.cs

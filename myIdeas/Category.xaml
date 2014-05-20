@@ -1,5 +1,5 @@
 ﻿<phone:PhoneApplicationPage
-    x:Class="myIdeas.DelCat"
+    x:Class="myIdeas.Category"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -23,28 +23,29 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="My Ideas" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="Delete category" Margin="-3,-7,-5,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock x:Name="PageTitle" Text="{Binding}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Margin="12,138,12,0" Grid.RowSpan="2">
-
-            <phone:LongListSelector Name="DeleteCatList" Height="563" VerticalAlignment="Top" Margin="25,41,25,0">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <phone:LongListSelector Name="IdeasList" Height="550" VerticalAlignment="Top" Margin="25,-15,25,0">
                 <phone:LongListSelector.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel Margin="0,0,0,25">
+                        <StackPanel Margin="0,0,0,0">
                             <Grid VerticalAlignment="Top">
-                                <Button x:Name="DeleteButton" Tag="{Binding Id}" Grid.Column="0" Click="DeleteButton_Click" MaxWidth="76" MaxHeight="76" HorizontalAlignment="Left" VerticalAlignment="Center" Width="76" Height="76">
-                                    <TextBlock Text="-" TextAlignment="Center" FontSize="36" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Width="70" Height="70" Margin="0,10,0,0"/>
-                                </Button>
-                                <TextBlock Grid.Column="1" Text="{Binding Name}" TextWrapping="Wrap" Margin="80,10,12,0" FontSize="36" FontWeight="Bold"/>
+                                <Button x:Name="IdeaButton" Tag="{Binding Id}" Content="{Binding Title}" Click="IdeaButton_Click"  HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="100" Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource TransparentBrush}"/>
                             </Grid>
                         </StackPanel>
                     </DataTemplate>
                 </phone:LongListSelector.ItemTemplate>
             </phone:LongListSelector>
-
         </Grid>
     </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/delete.png" Text="Delete idea" Click="ApplicationBarIconButton_Click"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
 
 </phone:PhoneApplicationPage>
