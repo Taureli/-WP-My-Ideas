@@ -31,13 +31,26 @@ namespace myIdeas
             {
                 ctx.CreateIfNotExists();
 
-                ctx.LogDebug = true;
-
                 PageTitle.DataContext = (from p in ctx.Ideas where p.Id == IdeaId select p.Title).Single();
                 IdeaContent.DataContext = (from p in ctx.Ideas where p.Id == IdeaId select p.Content).Single();
 
             }
 
+        }
+
+        private void ApplicationBarIconButton_Click(object sender, EventArgs e)
+        {
+            using (IdeasContext ctx = new IdeasContext(IdeasContext.ConnectionString))
+            {
+                ctx.CreateIfNotExists();
+
+                var bla = (from p in ctx.Ideas where p.Id == IdeaId select p).Single();
+
+                ctx.Ideas.DeleteOnSubmit(bla);
+                ctx.SubmitChanges();
+
+                NavigationService.GoBack();
+            }
         }
 
     }

@@ -28,7 +28,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <phone:LongListSelector Name="IdeasList" Height="550" VerticalAlignment="Top" Margin="25,-15,25,0">
+            <phone:LongListSelector Name="IdeasList" Height="560" VerticalAlignment="Top" Margin="25,-25,25,0">
                 <phone:LongListSelector.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Margin="0,0,0,0">
@@ -44,7 +44,8 @@
 
     <phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/delete.png" Text="Delete idea" Click="ApplicationBarIconButton_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/add.png" Text="New Idea" Click="ApplicationBarIconButton_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/folder.png" Text="Category" Click="AddCategoryButton"/>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 

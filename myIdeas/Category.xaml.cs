@@ -33,7 +33,7 @@ namespace myIdeas
 
                 ctx.LogDebug = true;
 
-                this.IdeasList.ItemsSource = ctx.Ideas.Where(d => d.Cat_id == CatId).ToList();
+                this.IdeasList.ItemsSource = ctx.Ideas.Where(d => d.Cat_id == CatId).OrderBy(d => d.Title).ToList();
 
                 PageTitle.DataContext = (from p in ctx.Categories where p.Id == CatId select p.Name).Single();
             }
@@ -50,7 +50,12 @@ namespace myIdeas
 
         private void ApplicationBarIconButton_Click(object sender, EventArgs e)
         {
+            NavigationService.Navigate(new Uri("/NewIdea.xaml", UriKind.Relative));
+        }
 
+        private void AddCategoryButton(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/NewCat.xaml", UriKind.Relative));
         }
     }
 }
