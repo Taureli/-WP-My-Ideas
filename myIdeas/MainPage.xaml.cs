@@ -49,7 +49,7 @@ namespace myIdeas
 
         private void ApplicationBarMenuItem_Click(object sender, EventArgs e)
         {
-
+            NavigationService.Navigate(new Uri("/About.xaml", UriKind.Relative));
         }
 
         private void AddIdeaClick(object sender, RoutedEventArgs e)
