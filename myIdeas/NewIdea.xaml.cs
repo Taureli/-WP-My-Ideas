@@ -103,7 +103,7 @@ namespace myIdeas
                     ctx.Ideas.InsertOnSubmit(idea);
                     ctx.SubmitChanges();
 
-                    NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+                    NavigationService.GoBack();
                 }
             }
         }

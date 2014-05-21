@@ -122,21 +122,21 @@ D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\ko\System.Windows.Inter
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\My Ideas.dll.config
-D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\My Ideas.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\My Ideas.pdb
-D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-AU\My Ideas.resources.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-CA\My Ideas.resources.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-GB\My Ideas.resources.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-IE\My Ideas.resources.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\My Ideas.g.resources
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.Resources.AppResources.en-AU.resources
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.Resources.AppResources.en-CA.resources
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.Resources.AppResources.en-GB.resources
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.Resources.AppResources.en-IE.resources
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-AU\My Ideas.resources.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-CA\My Ideas.resources.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-GB\My Ideas.resources.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-IE\My Ideas.resources.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\My Ideas.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\My Ideas.pdb
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.g.resources
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas.dll.config
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas.pdb
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-AU\myIdeas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-CA\myIdeas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-GB\myIdeas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-IE\myIdeas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-AU\myIdeas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-CA\myIdeas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-GB\myIdeas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-IE\myIdeas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.pdb

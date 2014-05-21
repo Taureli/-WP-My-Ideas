@@ -22,11 +22,11 @@ namespace myIdeas
             InitializeComponent();
             if (App.IsTrial)
             {
-                AdControl.Visibility = System.Windows.Visibility.Visible;
+                myideasAD.Visibility = System.Windows.Visibility.Visible;
             }
             else
             {
-                AdControl.Visibility = System.Windows.Visibility.Collapsed;
+                myideasAD.Visibility = System.Windows.Visibility.Collapsed;
             }
         }
 

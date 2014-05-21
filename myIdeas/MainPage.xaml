@@ -44,7 +44,7 @@
                     <Button x:Name="AddIdea" Foreground="#FFA66F00" Content="New idea!" Click="AddIdeaClick" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="125" Background="#FFFFAA00" BorderBrush="{StaticResource TransparentBrush}" Margin="10,23,10,455"/>
                     <Button x:Name="AddCategory" Foreground="#FFA66F00" Content="Add category" Click="AddCategoryButton" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="100" Background="#FFFFAA00" BorderBrush="{StaticResource TransparentBrush}" Margin="10,186,10,317"/>
                     <Button x:Name="RemoveCategory" Foreground="#FFA66F00" Content="Remove category" Click="RemoveCategory_Click" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="436" Height="100" Background="#FFFFAA00" BorderBrush="{StaticResource TransparentBrush}" Margin="10,266,10,237"/>
-                    <UI:AdControl x:Name="AdControl" Visibility="Visible" ApplicationId="8e0ecdc7-7f86-4cba-a9c2-9246b794798e" AdUnitId="174840" HorizontalAlignment="Left" Height="80" Margin="0,450,0,0" VerticalAlignment="Top" Width="480"/>
+                    <UI:AdControl x:Name="myideasAD" IsAutoRefreshEnabled="True" Visibility="Visible" ApplicationId="9ecfa8b0-ca2f-4525-96d3-2ee0a4a6a195" AdUnitId="174852" HorizontalAlignment="Left" Height="80" Margin="0,450,0,0" VerticalAlignment="Top" Width="480"/>
 
                 </Grid>
 

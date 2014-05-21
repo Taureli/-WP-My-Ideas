@@ -73,7 +73,7 @@ namespace myIdeas
                     ctx.Categories.InsertOnSubmit(category);
                     ctx.SubmitChanges();
 
-                    NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
+                    NavigationService.GoBack();
 
                 }
             }
