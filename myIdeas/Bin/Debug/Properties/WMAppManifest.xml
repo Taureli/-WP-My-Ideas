@@ -3,8 +3,12 @@
   <DefaultLanguage xmlns="" code="en-US" />
   <Languages xmlns="">
     <Language code="en" />
+    <Language code="en-AU" />
+    <Language code="en-CA" />
+    <Language code="en-IE" />
+    <Language code="en-GB" />
   </Languages>
-  <App xmlns="" ProductID="{8e0ecdc7-7f86-4cba-a9c2-9246b794798e}" Title="My Ideas" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Jakub Karolczak" Description="Sample description" Publisher="Jakub Karolczak" PublisherID="{107057fb-6d5e-4f51-b325-b71638ce3039}">
+  <App xmlns="" ProductID="{8e0ecdc7-7f86-4cba-a9c2-9246b794798e}" Title="My Ideas" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Jakub Karolczak" Description="Have you ever been struck by a brilliant idea, but had no way of writing it down and forgot it forever?&#xD;&#xA;With this app you can easily store and manage all of your ideas everywhere you go! You will never forget anything!&#xD;&#xA;- Write down your idea with just a " Publisher="Jakub Karolczak" PublisherID="{107057fb-6d5e-4f51-b325-b71638ce3039}">
     <IconPath IsRelative="true" IsResource="false">IconBig.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

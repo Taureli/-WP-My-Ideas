@@ -4,22 +4,15 @@ D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Assets\Tiles\FlipCycleT
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Assets\Tiles\IconicTileSmall.png
-D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas.pdb
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\AppManifest.xaml
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Properties\WMAppManifest.xml
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas_Debug_AnyCPU.xap
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\App.g.cs
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\DetailsPage.g.cs
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\MainPage.g.cs
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.g.resources
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.Resources.AppResources.resources
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.csproj.GenerateResource.Cache
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.dll
-D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.pdb
 D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\XapCacheFile.xml
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Ideas.sdf
-D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\myIdeas.dll.config
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Microsoft.Phone.Toolkit.Testing.dll
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTesting.Phone.dll
@@ -129,3 +122,21 @@ D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\ko\System.Windows.Inter
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\My Ideas.dll.config
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\My Ideas.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\My Ideas.pdb
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-AU\My Ideas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-CA\My Ideas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-GB\My Ideas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\Bin\Debug\en-IE\My Ideas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\My Ideas.g.resources
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.Resources.AppResources.en-AU.resources
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.Resources.AppResources.en-CA.resources
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.Resources.AppResources.en-GB.resources
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\myIdeas.Resources.AppResources.en-IE.resources
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-AU\My Ideas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-CA\My Ideas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-GB\My Ideas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\en-IE\My Ideas.resources.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\My Ideas.dll
+D:\visual studio 2013\Projects\myIdeas\myIdeas\obj\Debug\My Ideas.pdb

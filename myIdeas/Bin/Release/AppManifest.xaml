@@ -10,5 +10,11 @@
     <AssemblyPart x:Name="Microsoft.VisualStudio.QualityTools.UnitTesting.Phone" Source="Microsoft.VisualStudio.QualityTools.UnitTesting.Phone.dll" />
     <AssemblyPart x:Name="System.Windows.Interactivity" Source="System.Windows.Interactivity.dll" />
     <AssemblyPart x:Name="Microsoft.Phone.Controls.Maps" Source="Microsoft.Phone.Controls.Maps.dll" />
+    <AssemblyPart Source="en-AU/myIdeas.resources.dll" />
+    <AssemblyPart Source="en-CA/myIdeas.resources.dll" />
+    <AssemblyPart Source="en-GB/myIdeas.resources.dll" />
+    <AssemblyPart Source="en-IE/myIdeas.resources.dll" />
+    <AssemblyPart Source="en-GB/Microsoft.Advertising.Mobile.resources.dll" />
+    <AssemblyPart Source="en-GB/Microsoft.Phone.Controls.Toolkit.resources.dll" />
   </Deployment.Parts>
 </Deployment>

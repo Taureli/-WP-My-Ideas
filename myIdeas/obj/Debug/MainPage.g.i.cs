@@ -70,7 +70,7 @@ namespace myIdeas {
                 return;
             }
             _contentLoaded = true;
-            System.Windows.Application.LoadComponent(this, new System.Uri("/myIdeas;component/MainPage.xaml", System.UriKind.Relative));
+            System.Windows.Application.LoadComponent(this, new System.Uri("/My%20Ideas;component/MainPage.xaml", System.UriKind.Relative));
             this.LayoutRoot = ((System.Windows.Controls.Grid)(this.FindName("LayoutRoot")));
             this.TitlePanel = ((System.Windows.Controls.StackPanel)(this.FindName("TitlePanel")));
             this.pivot1 = ((Microsoft.Phone.Controls.Pivot)(this.FindName("pivot1")));
