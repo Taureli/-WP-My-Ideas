@@ -25,8 +25,6 @@ namespace myIdeas
             {
                 ctx.CreateIfNotExists();
 
-                ctx.LogDebug = true;
-
                 this.lpkCategories.ItemsSource = ctx.Categories.OrderBy(d => d.Name).Select(d => d.Name).ToList();
             }
 

@@ -23,8 +23,6 @@ namespace myIdeas
             {
                 ctx.CreateIfNotExists();
 
-                ctx.LogDebug = true;
-
                 DeleteCatList.ItemsSource = ctx.Categories.Where(d => d.Isdefault == 0).Where(d => d.Ideas.Count == 0).ToList();
 
             }

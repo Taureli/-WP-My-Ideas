@@ -31,8 +31,6 @@ namespace myIdeas
             {
                 ctx.CreateIfNotExists();
 
-                ctx.LogDebug = true;
-
                 this.IdeasList.ItemsSource = ctx.Ideas.Where(d => d.Cat_id == CatId).OrderBy(d => d.Title).ToList();
 
                 PageTitle.DataContext = (from p in ctx.Categories where p.Id == CatId select p.Name).Single();

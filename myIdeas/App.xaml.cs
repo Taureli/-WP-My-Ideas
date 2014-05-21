@@ -31,6 +31,22 @@ namespace myIdeas
             }
         }
 
+        public static bool IsTrial
+        {
+            get;
+            private set;
+        }
+
+        private void DetermineIsTrial()
+        {
+#if TRIAL
+            IsTrial = true;
+#else
+            var license = new Microsoft.Phone.Marketplace.LicenseInformation();
+            IsTrial = license.IsTrial();
+#endif
+        }
+
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
@@ -58,7 +74,7 @@ namespace myIdeas
             if (Debugger.IsAttached)
             {
                 // Display the current frame rate counters.
-                Application.Current.Host.Settings.EnableFrameRateCounter = true;
+                Application.Current.Host.Settings.EnableFrameRateCounter = false;
 
                 // Show the areas of the app that are being redrawn in each frame.
                 //Application.Current.Host.Settings.EnableRedrawRegions = true;
@@ -79,6 +95,7 @@ namespace myIdeas
         // This code will not execute when the application is reactivated
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+            DetermineIsTrial();
         }
 
         // Code to execute when the application is activated (brought to foreground)
@@ -90,6 +107,7 @@ namespace myIdeas
             {
                 App.ViewModel.LoadData();
             }
+            DetermineIsTrial();
         }
 
         // Code to execute when the application is deactivated (sent to background)

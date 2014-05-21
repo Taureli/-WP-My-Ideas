@@ -9,15 +9,25 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using myIdeas.Resources;
 using myIdeas.ViewModels;
+using Microsoft.Advertising.Mobile.UI;
 
 namespace myIdeas
 {
     public partial class MainPage : PhoneApplicationPage
     {
+
         // Constructor
         public MainPage()
         {
             InitializeComponent();
+            if (App.IsTrial)
+            {
+                AdControl.Visibility = System.Windows.Visibility.Visible;
+            }
+            else
+            {
+                AdControl.Visibility = System.Windows.Visibility.Collapsed;
+            }
         }
 
         // Load data for the ViewModel Items
@@ -26,8 +36,6 @@ namespace myIdeas
             using(IdeasContext ctx = new IdeasContext(IdeasContext.ConnectionString))
             {
                 ctx.CreateIfNotExists();
-
-                ctx.LogDebug = true;
 
                 CategoriesList.ItemsSource = ctx.Categories.OrderBy(d => d.Name).ToList();
             }
@@ -65,6 +73,11 @@ namespace myIdeas
         private void ApplicationBarIconButton_Click(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/NewIdea.xaml", UriKind.Relative));
+        }
+
+        private void ApplicationBarMenuItem_Click_1(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("http://windowsphone.com/s?appId=8e0ecdc7-7f86-4cba-a9c2-9246b794798e"));
         }
 
     }

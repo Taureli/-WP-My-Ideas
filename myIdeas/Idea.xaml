@@ -27,7 +27,7 @@
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0" Background="#FFFFEA83" Height="525" VerticalAlignment="Top">
             <ScrollViewer>
                 <TextBlock Foreground="#FFA66F00" x:Name="IdeaContent" FontSize="24" TextWrapping="Wrap" Text="{Binding}" VerticalAlignment="Top" Margin="25,10,25,0"/>
             </ScrollViewer>
